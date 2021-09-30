@@ -292,22 +292,48 @@ td {
 
 }
 footer{
-    height:20vh;
+    height:10vh;
     display: flex;
+    background-color: #1B2E3D;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#024e79, #182f4d);
+    /* background-color: #0DF5FF; */
     z-index: -1;
     
 
 }
-footer img{
-    height: 35px;
-    width: 35px;
+footer i{
+    border: 1px solid #D9E9F4;
+    background-color: #D9E9F4;
+    border-radius: 50%;
+    font-size: 20px;
     margin: 20px;
+    cursor: pointer;
     opacity: 1;
-   
+   color: black;
+   transition: 0.5s;
 }
-footer img:hover{
-    opacity: 0.5;
+footer i:hover{
+    border-color: #7CC3F5;
+    background-color: #7CC3F5 ;
+    color: white;
 }
+
+.fa-twitter {
+    padding: 8px;
+  }
+
+  .fa-facebook-f {
+    padding: 8px 11px;
+  }
+
+
+  .fa-instagram {
+    padding: 8px 9px;
+  }
+  .fa-linkedin-in {
+    padding: 8px 9px;
+  }
+  .fa-github {
+    padding: 8px;
+  }
